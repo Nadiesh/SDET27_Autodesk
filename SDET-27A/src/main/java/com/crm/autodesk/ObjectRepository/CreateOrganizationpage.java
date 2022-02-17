@@ -52,8 +52,7 @@ public class CreateOrganizationpage extends WebDriverUtility {
 		select(industryDropDown,industry);
 		select(typedropDown,type);
 		savebtn.click();
-	}
-	
+	}	
 	
 
 }

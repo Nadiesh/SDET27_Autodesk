@@ -1,22 +1,7 @@
 package com.AutoDesk.contacts;
 
-import static org.testng.Assert.assertEquals;
-
-import java.io.FileInputStream;
-import java.util.Properties;
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Test;
-
 import com.crm.autodesk.GenericUtility.BaseClass;
 import com.crm.autodesk.GenericUtility.FileUtility;
 import com.crm.autodesk.GenericUtility.JavaUtility;

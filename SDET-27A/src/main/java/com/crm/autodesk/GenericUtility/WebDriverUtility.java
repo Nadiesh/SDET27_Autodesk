@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
@@ -29,7 +27,7 @@ import com.google.common.io.Files;
  * 
  */
 
-public class WebDriverUtility {
+public class WebDriverUtility {	
 	/**
 	 * wait for page to load before identifying any synchronized element in DOM [HTML-Document]
 	 * @param driver

@@ -10,7 +10,7 @@ import com.crm.autodesk.ObjectRepository.CreateOrganizationpage;
 import com.crm.autodesk.ObjectRepository.Homepage;
 import com.crm.autodesk.ObjectRepository.OrganizationInfopage;
 import com.crm.autodesk.ObjectRepository.OrganizationsPage;
-@Listeners(com.crm.autodesk.GenericUtility.Listnerimplementation.class)
+@Listeners(com.crm.autodesk.GenericUtility.ListImpClass.class)
 public class CreateOrgTest extends BaseClass {
 	@Test(groups = "smokeTest")
 	public void createOrgTest() throws Throwable {

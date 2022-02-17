@@ -1,24 +1,9 @@
 package com.Crm.Products;
 
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
-import java.io.FileInputStream;
-import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
-
 import com.crm.autodesk.GenericUtility.BaseClass;
-import com.crm.autodesk.GenericUtility.ExcelUtility;
-import com.crm.autodesk.GenericUtility.FileUtility;
-import com.crm.autodesk.GenericUtility.JavaUtility;
-import com.crm.autodesk.GenericUtility.WebDriverUtility;
+
 
 public class EditStockInfoTest extends BaseClass {
 	@Test
